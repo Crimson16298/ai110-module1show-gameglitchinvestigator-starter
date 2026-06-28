@@ -25,19 +25,19 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
+- [The game's purpose was to guess the random number between 1 to 100 in 7 tries. ] Describe the game's purpose.
+- [The attempt counter was off by one, the program kept displaying the opposite message based off f your guess] Detail which bugs you found.
+- [I adjusted the UI so that the screen stays connected with the backend. I also adjusted the logic in the backend to display the proper message, and ensure that there was no string conversion so that the program can perform the math ] Explain what fixes you applied.
 
 ## 📸 Demo Walkthrough
 
 Describe your fixed game in numbered steps so a reader can follow along without watching a video:
 
-1. <!-- Describe this step -->
-2. <!-- Describe this step -->
-3. <!-- Describe this step -->
-4. <!-- Describe this step -->
-5. <!-- Add more steps as needed -->
+1. <!-- The user starts a Normal game -->
+2. <!-- The user enters a guess of 50 -->
+3. <!-- Game compares input to the secret number and returns a corresponding message based off of the number. And increments the attempts counter -->
+4. <!-- User enters the correct number -->
+5. <!-- The game returns correct-->
 
 **Screenshot** *(optional)*: <!-- Insert a screenshot of your fixed, winning game here -->
 
